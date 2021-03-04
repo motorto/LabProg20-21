@@ -29,7 +29,8 @@ void createArray(int *array,int size,int numero){
 
 void write(int *array,int size){
 	for (int i = 0 ; i<size ; i++)
-		printf("%d%c",array[i],i==size-1 ? '\n' : ' ');
+		printf("%d",array[i]);
+	putchar('\n');
 }
 
 int main(){
